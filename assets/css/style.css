@@ -96,7 +96,6 @@ button:focus,
 footer {
     background-color: var(--bg-primary);
     padding: 2rem 0;    
-    bottom: 0;
     width: 100%;
 }
 
@@ -182,6 +181,3 @@ footer a {
 
 
 
-
-
-  

@@ -48,5 +48,3 @@ function createShopifyBuyButton(productId, targetClassName, buttonText) {
     loadScript();
   }
 }
-
-
