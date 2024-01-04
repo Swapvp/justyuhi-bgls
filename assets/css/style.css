@@ -213,3 +213,10 @@ footer a {
     font-size: 22px;
 }
 
+
+@media screen and (max-width: 426px) {
+    .brand-card{
+        margin: 10px 0px;
+        
+    }
+}
