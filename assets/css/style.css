@@ -177,7 +177,9 @@ footer a {
 
 /* Brand Slider */
 
-
+.accordion-button:not(.collapsed) { 
+    background-color: var(--text-primary);
+}
 
 
 

@@ -1,0 +1,43 @@
+:root {
+    /* bg color */
+    --bg-primary:#008489;
+    --bg-secondary:#3F3B51;
+
+    /* Text color */
+    --text-white:#ffffff;
+    --text-primary:#0AEDED;
+    --text-secondary:#008489;
+}
+
+form {
+    margin-top: 50px;
+  }
+  
+  input{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+  textarea{
+      width: 100%;
+      padding: 10px;
+  }
+  .submit{
+      border: none;
+      background-color: var(--bg-primary);
+      color: white;
+      /* width: 200px; */
+      margin-top: 10px;
+      border-radius: 5px;
+  }
+  .submit:hover{
+      /* background-color: #333333; */
+      background-color: hsl(216, 77%, 48%);
+  
+  }
+  
+  .contact-img {
+    width: 80%;
+    object-fit: cover;
+    
+  }
