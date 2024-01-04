@@ -182,4 +182,34 @@ footer a {
 }
 
 
+/* brand page */
+
+.brand-card a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.brand-card img{
+    mix-blend-mode: darken;
+}
+.brand-card{
+    background-color:#d6d5d5ab;
+    border-radius: 5px;
+    transition: 1s all;
+    box-shadow: inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px, rgba(0, 0, 0, .3) 0px 30px 100px -24px;
+    margin: 10px 20px;
+}
+
+.brand-card:hover{
+    transform: translateY(-10px);
+    box-shadow: inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px, rgba(0, 0, 0, .3) 0px 30px 100px -24px;
+}
+
+.brand-card h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #3F3B51;
+    border-radius: 5px;
+    font-size: 22px;
+}
 
